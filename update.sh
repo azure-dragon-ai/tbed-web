@@ -2,7 +2,7 @@
 git checkout master
 git commit -a -m 'update'
 git push -u origin master
-npm run build
+#npm run build
 rm -rf ../hugai-chatgpt-ui/leona-web/webroot/admin1/*
 cp -r dist/* ../hugai-chatgpt-ui/leona-web/webroot/admin1
 cd ../hugai-chatgpt-ui/leona-web
