@@ -17,8 +17,6 @@ module.exports = {
                 options[0].fileBlacklist.push(/myasyncRoute(.)+?\.js$/)
                 return options
             })
-
-
     },
     configureWebpack: config => {
         if (process.env.NODE_ENV === 'production') {
